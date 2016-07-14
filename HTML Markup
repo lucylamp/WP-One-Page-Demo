@@ -1,0 +1,37 @@
+<--This is the markup for the individual posts that make up the front page-->
+<--The empty divs are the anchors for the navigation-->
+
+<--Hello World-->
+<div id="hello-world-post"></div>
+<div id="hello-world" class="frontpage-section">
+<h1>Hello World!</h1>
+<img src="http://localhost:8888/portfolio2_current/wp-content/uploads/2015/09/Tuxedo_Man_1.png" alt="Tuxedo_Man_1" width="300" height="500" class="alignnone size-full wp-image-3159"/>
+</div>
+
+<--Kittens-->
+<div id="kitten-post"></div>
+<div id="kittens" class="frontpage-section">
+  <h1>I love kittens!</h1>
+  <img class="alignnone size-full wp-image-4392" src="http://localhost:8888/portfolio2_current/wp-content/uploads/2016/07/SSPX2297.jpg" alt="SSPX2297" width="400"  />
+</div>
+
+<--Unicorns-->
+<div id="unicorn-post"></div>
+<div id="unicorns" class="frontpage-section">
+  <h1>I also love unicorns!</hi>
+</div>
+
+<--Sunset-->
+<div id="sunset-post"></div>
+<div id="sunset" class="frontpage-section">
+  <img class="alignnone size-full wp-image-587" src="http://localhost:8888/portfolio2_current/wp-content/uploads/2015/05/incredible_pink.jpg" alt="Sunset_Still" width="3264" height="2448" />
+  <h1>A pretty sunset.</h1>
+</div>
+<--The End-->
+<div id="end-post"></div>
+<div id="end" class="frontpage-section">
+  <h1>This</h1>
+  <h2>is</h2>
+  <h3>the</h3>
+  <h4>end.</h4>
+</div>
