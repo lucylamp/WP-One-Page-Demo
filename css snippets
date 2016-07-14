@@ -1,0 +1,151 @@
+/*snippets of code from style.css used to create a one page site*/
+/*TYPOGRAPHY*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+a:hover{
+	font-family: 'Josefin Sans',sans-serif;
+	font-size: 1 em;
+	line-height: 1.5;
+	letter-spacing: .05em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+p,
+h1 {
+	margin-bottom: 0;
+}
+/*HEADER*/
+.site-description{
+	font-size: 3em;
+	font-style: italic;
+	font-weight: 600;
+	padding: 5% 0 15% 10%;
+	background:  #B4C170;
+	width: 100%;
+}
+#git{
+	padding-left: 10%;
+}
+#git p a{
+	color: #404040;
+}
+#git p a:hover{
+	color: #404040;
+	font-style: italic;
+}
+/*NAVIGATION. Note that the primary menu links go to anchors in each section on the front page, not to the actual post.*/
+.main-navigation {
+	clear: both;
+	display: block;
+}
+.menu-menu-1-container{
+	background: #B4C170;
+	position: fixed;
+	top: 3%;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+#primary-menu li{
+	padding: 20px 20px 15px 20px;
+}
+#primary-menu li a{
+text-transform: uppercase;
+font-size: 1.25em;
+font-weight: 700;
+color: #7B8C34;
+}
+/*FRONT PAGE*/
+.frontpage-section{
+	margin: 0;
+	padding: 0;
+}
+/*POSTS These are regular posts that become the sections of the front page.*/
+/*hello world*/
+#hello-world{
+	background: lightgray;
+	text-align: center;
+	border-top: 100px solid #a8a8a8;
+	border-bottom: 100px solid #a8a8a8;
+	padding: 10% 0;
+}
+#hello-world h1{
+	padding-top: 4%;
+}
+#hello-world img{
+	margin-bottom: 7%;
+}
+/*kittens*/
+#kittens{
+	background: lightblue;
+	text-align: center;
+	padding: 5%;
+}
+#kittens img{
+	margin: 0 0 18% 0;
+	/*border: 6px solid turquoise;*/
+}
+#kittens h1{
+	color: #181818;
+	font-size: 3em;
+	padding-top: 12%;
+	/*padding-left: 10%;*/
+}
+/*unicorns*/
+#unicorns{
+	height: 800px;
+	background:  #ffb3d9;
+	text-align: center;
+	padding: 5%;
+}
+#unicorns h1{
+	font-size: 8em;
+	color: #ff3399;
+	padding-top:  20%;
+}
+/*sunset*/
+#sunset{
+	background: #181818;
+}
+#sunset h1{
+	margin-top: -50px;
+	color: #c0c0c0;
+	padding-left:  5%;
+}
+/*end*/
+#end{
+	background: #fff;
+	text-align: center;
+	padding: 35%;
+}
+#end h1,
+#end h2,
+#end h3,
+#end h4{
+	color: #000;
+}
+/*FOOTER*/
+.site-info{
+	padding-left: 5%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.site-info a{
+	text-decoration: none;
+	color: #7B8C34;
+}
+.site-info a:hover{
+	font-style: italic;
+	color: #7B8C34;
+}
