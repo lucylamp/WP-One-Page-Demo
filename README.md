@@ -1,8 +1,10 @@
 # WP-One-Page-Demo
 How to make a one-page scrolling site in WordPress.
+
 Author: Lucy Lamp
+
 Code License: MIT
-Demo: http:''lucylamp.com/WP_one_page_site/
+
 
 1. Create individual posts as usual.
 2. Give them all the same category
